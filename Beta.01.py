@@ -242,6 +242,7 @@ while option_loop:
 
                 if len(view_list) == 0:
                     print("No Reserved Schedules yet\n")
+                    break
                 else:
                     print("----------------------------")
                     print(f"| RESERVED SCHEDULES FOR AVR {check_room}|")
